@@ -1,0 +1,28 @@
+{
+  "name": "authentication_setup",
+  "version": "1.0.0",
+  "description": "Reusable in-memory authentication and user profiling module for Node.js apps",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "auth",
+    "jwt",
+    "express",
+    "profile"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.0",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "supertest": "^7.0.0"
+  }
+}
